@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".", // Importante para aliases relativos à raiz
+    "paths": {
+      "@/*": ["./src/*"] // Isso mapeia @/ para sua pasta src/
+    }
+  },
+  "include": ["src"] // Inclui a pasta src para que o VS Code entenda os módulos
+}
